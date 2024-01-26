@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+header {
+    padding-top: 10px;
+    padding-inline: 16px;
+    background: none;
+    color: white;
+}
+
+#nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#logo h1 {
+    margin: 0;
+}
+
+
+#nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+#nav p {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#nav-list a {
+    font-size: 18px;
+    padding-block: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    padding: 0 5px;
+    border: 1px solid;
+}
+
+#nav-list a:hover {
+    color: rgb(156, 158, 160);
+}
+
+#main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 30px;
+}
+
+#main h2 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#main button {
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#social-media {
+    color: white;
+    background-color: black;
+    width: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border-radius: 2px;
+
+}
+
+#social-media p {
+    margin: 0;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+    
+}
+
+#card-one {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#card-one:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#cards img {
+    height: 190px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+
+#cards h3 {
+    text-align: center;
+}
+
+#card-two {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#card-two:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
