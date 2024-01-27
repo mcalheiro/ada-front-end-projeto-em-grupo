@@ -251,6 +251,11 @@ footer div p {
   margin-bottom: 30px;
 }
 
+/* .error-message {
+  color: red;
+  font-size: 12px;
+} */
+
 .hide {
   display: none;
 }
