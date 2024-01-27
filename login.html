@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Isa</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaia | Login</title>
+    <link rel="stylesheet" href="style-login.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+  </head>
+
+  <body>
+    <video
+      id="video-background"
+      autoplay
+      muted
+      loop
+      src="./images/bkg.mp4"
+    ></video>
+
+    <div class="login-container">
+      <header>
+        <a href="../index.html">
+          <img src="./images/logo.png" alt="logo da empresa Gaia" />
+        </a>
+      </header>
+      <div class="login-box">
+        <header><h1>Entrar</h1></header>
+        <form class="form-fild" action="./dados.html" method="post">
+          <label class="hide" for="login"></label>
+          <input
+            type="text"
+            id="login"
+            name="login"
+            required title="Por favor, preencha seu email ou telefone"
+            placeholder="Email ou Número de telefone"
+          />
+          <!-- <div class="error-message">Por favor, preencha com seu email ou telefone.</div> -->
+
+          <label class="hide" for="senha"></label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            required title="Por favor, preencha com a sua senha"
+            placeholder="Senha"
+          />
+
+          <button><a href="../index.html"></a> Entrar</button>
+
+          <!-- Esse seria o botão numa página responsiva com banco de dados correto: -->
+          <!-- <button type="submit">Entrar</button> -->
+
+          <a href="./esqueceu a senha.html"> <p>Esqueceu a senha?</p> </a>
+        </form>
+
+        <footer>
+          <div>
+            <input type="checkbox" name="lembrete" id="lembrete" />
+            <h6>Lembre-se de mim</h6>
+          </div>
+
+          <div>
+            <h6>Novo por aqui? <a href="signiture-page">Assine agora.</a></h6>
+          </div>
+
+          <div>
+            <p>
+              Esta página é protegida pelo Google reCAPTCHA para garantir que
+              você não é um robô. <a href="saiba-mais"> Saiba mais</a>.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
