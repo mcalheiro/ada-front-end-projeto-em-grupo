@@ -139,3 +139,29 @@ header {
 
 /*JOAO Marcos*/
 
+.conteiner__jm{
+    background-color: #2c0842;
+    color: white;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.conteiner__text__jm{
+    text-align: center;
+    margin: 10px;
+}
+
+.conteiner__h2__jm{
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.conteiner__p__jm{
+    font-size: 20px;
+    width: 750px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+}
