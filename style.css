@@ -8,7 +8,7 @@ body {
     background-position: center;
     margin: 0;
     font-family: 'DM Sans', sans-serif;
-    background: linear-gradient(rgba(2, 138, 68, 0),rgba(0, 107, 0, 0.5)),url(./assets/images/bg7.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/images/bg7.jpg) no-repeat;
     background-size: cover;
 }
  
