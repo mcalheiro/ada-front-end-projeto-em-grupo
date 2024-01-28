@@ -3,53 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        
+    <link rel="icon" href="./assets/images/gaialogo.png"/>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap" rel="stylesheet">
 
     <title>NomeDaEmpresa</title>
 </head>
 <body>
-    
-<header>
-    <nav id="nav">
-        <div id="logo">
-            <h1>Logo</h1>
-            <p>Logo da empresa de viagem</p>
-        </div>
-            
-        <ul id="nav-list">
-            <li><a href="#">Comprar</a></li>
-            <li><a id="login" href="#">Login</a></li>
-        </ul>
-    </nav>
+<div id="first-part-content">
+    <div id="container">
+        <header>
+            <header class="header">
+                <div class="logo">
+                    <img src="./assets/images/gaia.png" class="logoimg" alt="Gaialogo">
+                    <a href="index.html" class="logoname">Gaia</a>
+                </div>
+                <nav class="navbar">
+                        <a href="#">Avaliações</a>
+                        <a href="destination.html">Destino</a>
+                        <a href="login.html">Login</a>
+                </nav>
+        </header>
+    </div>
 
     <div id="main">
         <h2>TRAVEL</h2>
         <p>AND LEARN THE BEST WAY TO DO IT</p>
-        <button>START NOW</button>
+        <a id="button" href="./destination.html">START NOW</a>
     </div>
-    
-    <div id="social-media">
-        <p>F</p>
-        <p>I</p>
-        <p>T</p>
-    </div>
-    
+        
     <div id="cards">
         <div id="card-one">
             <img src="./assets/images/img1-main-page.jpg" alt="imagem...">
             <h3>Viagem 1</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem corporis </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam  </p>
         </div>
-    
+        
         <div id="card-two">
             <img src="./assets/images/img2-main-page.jpg" alt="imagem...">
             <h3>Viagem 2</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem vel maxime similique facere ab</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem vel </p>
+        </div>
+
+        <div id="card-three">
+            <img src="./assets/images/img2-main-page.jpg" alt="imagem...">
+            <h3>Viagem 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui </p>
         </div>
     </div>
-</header>
-
+</div>
     <!--JOAO MARCOS-->
 <main>
     <section class="conteiner__jm">
@@ -131,6 +137,8 @@
     </section>
 </main>
 
+
+<div id="container">
 <footer>
     <div class="footer-content">
         <h3>gaia travels</h3>
@@ -147,5 +155,6 @@
         <p class="copy"> Copyright &copy;2024 Gaia Travels | Design by <span>Gaia Web Development Team</span></p>
     </div>
 </footer>
+</div>
 </body>
 </html>
