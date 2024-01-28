@@ -18,38 +18,51 @@
     ></video>
 
     <div class="login-container">
-      <header>
-        <a href="./login.html">
-          <img src="./images/logo.png" alt="logo da empresa Gaia" />
-        </a>
+      <header class="header">
+        <div class="logo">
+          <img src="./assets/images/gaia.png" class="logoimg" alt="Gaialogo" />
+          <a href="index.html" class="logoname">Gaia</a>
+        </div>
       </header>
+
       <div class="login-box">
         <header><h1>Entrar</h1></header>
-        <form class="form-fild" action="./dados.html" method="post">
+        <form class="form-fild" action="/dados.html" method="post">
           <label class="hide" for="login"></label>
           <input
             type="text"
             id="login"
             name="login"
-            required title="Por favor, preencha seu email ou telefone"
+            required
+            title="Por favor, preencha seu email ou telefone"
             placeholder="Email ou Número de telefone"
           />
 
-          <label class="hide" for="senha"></label>
-          <input
-            type="password"
-            id="senha"
-            name="senha"
-            required title="Por favor, preencha com a sua senha"
-            placeholder="Senha"
-          />
+          <span>
+            <label class="hide" for="senha"></label>
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              required
+              title="Por favor, preencha com a sua senha"
+              placeholder="Senha"
+            />
 
-          <button><a href="./index.html"></a> Entrar</button>
+            <img
+              src="./images/3844443_disable_eye_inactive_see_show_icon.svg"
+              alt="closed-eye"
+              class="eye-properties"
+              aria-hidden="true"
+            />
+          </span>
+
+          <button><a href="/index.html"></a> Entrar</button>
 
           <!-- Esse seria o botão numa página responsiva com banco de dados correto: -->
           <!-- <button type="submit">Entrar</button> -->
 
-          <a href="./esqueceu a senha.html"> <p>Esqueceu a senha?</p> </a>
+          <a href="/esqueceu a senha.html"> <p>Esqueceu a senha?</p> </a>
         </form>
 
         <footer>
@@ -72,4 +85,33 @@
       </div>
     </div>
   </body>
+  <footer class="final-footer">
+    <div class="footer-content">
+      <h3>gaia travels</h3>
+      <p>Live the Living World</p>
+      <ul class="socials">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin-square"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p class="copy">
+        Copyright &copy;2024 Gaia Travels | Design by
+        <span>Gaia Web Development Team</span>
+      </p>
+    </div>
+  </footer>
 </html>
