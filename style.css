@@ -189,3 +189,260 @@ body {
         margin: 0 auto;
     }
 }
+
+
+/*MAIN*?
+/*JOAO Marcos*/
+
+
+main{
+    background-attachment: fixed;
+    color:  #FFF;
+}
+
+.conteiner__jm{
+    margin-top: 100px;
+    padding: 10px;
+    margin: 10px 20px 0 20px;
+    background: hsla(0, 0%, 43%, 0.721);
+}
+
+.conteiner__text__jm{
+    text-align: center;
+    margin: 0 15px;
+}
+
+.conteiner__h2__jm{
+    color: #FFF;
+
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;      
+}
+
+.conteiner__p__jm{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.maior__jm{
+    font-size: 22px;
+}
+
+.conteiner__img__jm{
+    display: flex;
+    width: 1152px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;  
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .conteiner__img__jm {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+
+.img__jm:hover{
+    border: 2px solid rgba(255, 255, 255, 0.693);
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
+    transition: transform .5s, border 1s; 
+}
+
+.conteiner__h3__jm{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin: 40PX;
+}  
+
+@media (max-width: 768px) {
+    .conteiner__h3__jm {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+.conteiner__ava__jm{
+    display: flex;
+    width: 1152px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.img__jm:hover{
+    border: 2px solid rgba(255, 255, 255, 0.693);
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
+    transition: transform .5s, border 1s;
+}
+
+#borda__jm{
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.comentarios-positivos {
+    padding: 50px 0;
+    text-align: center;
+    margin: auto;
+  }
+
+
+  .depoimentos__h2{
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .comentarios-positivos h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comentario {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comentario img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .comentario p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .comentario strong {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .comentarios {
+      flex-direction: column;
+    }
+  
+    .comentario {
+      width: 100%;
+    }
+  }
+
+
+  /*FOOTER*/
+
+  footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsla(0, 0%, 7%, 0.5);
+    height: auto;
+    width: 100%;
+    font-family: "DMSans";
+    padding-top: 40px;
+    color: beige;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+}
+.socials li:not(:last-child){
+    margin: 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: beige;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    margin: 0;
+    background: hsla(0, 0%, 0%, 0.5);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
