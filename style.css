@@ -222,3 +222,15 @@ header {
     margin: auto;
     margin-bottom: 40px;
 }
+
+.img__jm:hover{
+    border: 2px solid rgba(255, 255, 255, 0.693);
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
+    transition: transform .5s, border 1s;
+}
+
+#borda__jm{
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
