@@ -318,25 +318,29 @@ footer div p {
 }
 
 .login-container {
-  display: flexbox;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  height: 50% auto;
+  width: 50% auto;
+  margin: auto;
   max-width: 100%;
   min-height: 800px;
 }
 
 .login-box {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-self: center;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: auto;
   max-width: 450px;
   min-height: 600px;
   padding: 48px 68px;
   background-color: rgba(0, 0, 0, 0.438);
   border-radius: 4px;
   box-sizing: border-box;
-  margin-bottom: 30px;
 }
+
 
 .hide {
   display: none;
