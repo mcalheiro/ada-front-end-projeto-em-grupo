@@ -10,7 +10,9 @@
     flex-direction: column;
     gap: 35px;
 }
-
+.verde{
+    color:#606D4B;
+}
 .align-items-start .col {
     background: #E1DDCB;
 }
