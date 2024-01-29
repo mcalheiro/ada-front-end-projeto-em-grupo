@@ -368,6 +368,10 @@ main{
   .comentarios-positivos h2 {
     font-size: 24px;
     margin-bottom: 30px;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
   }
   
   .comentarios {
@@ -429,7 +433,7 @@ main{
     background: hsla(0, 0%, 7%, 0.5);
     height: auto;
     width: 100%;
-    font-family: "DMSans";
+    font-family: "DM Sans";
     padding-top: 40px;
     color: beige;
 }
@@ -441,12 +445,14 @@ main{
     text-align: center;
 }
 .footer-content h3{
+    font-family: "DM Sans";
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
 .footer-content p{
+    font-family: "DM Sans";
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
