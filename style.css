@@ -223,8 +223,7 @@ main{
 .conteiner__jm{
     margin-top: 100px;
     padding: 10px;
-    margin: 10px 20px 0 20px;
-    background: hsla(0, 0%, 43%, 0.721);
+    background: hsl(115, 86%, 14%);
 }
 
 .conteiner__text__jm{
