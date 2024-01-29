@@ -4,7 +4,9 @@
 *{
     font-family: "DMSans";
 }
-
+body{
+    background-color: #ffffff;
+}
 #months {
     display: flex;
     flex-direction: column;
@@ -37,9 +39,28 @@
     min-height: 100vh;
 }
 
-
+.masthead{
+    background-size:100vmax;
+    min-height:100vmin;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pexels-lyle-simes-9106782.jpg);
+    position: relative;
+    color: beige;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+.botswana{
+    font-size: 4rem;
+    font-weight:500;
+}
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    
+}
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -89,6 +110,9 @@ header {
 }
 .navbar a:hover::before{
     width:100%;
+}
+#experiencias, .color{
+    color: #606D4B;
 }
 footer{
     position: absolute;
