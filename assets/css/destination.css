@@ -4,9 +4,7 @@
 *{
     font-family: "DMSans";
 }
-body{
-    background-color: #ffffff;
-}
+
 #months {
     display: flex;
     flex-direction: column;
@@ -63,7 +61,7 @@ body{
     
 }
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -113,9 +111,6 @@ header {
 }
 .navbar a:hover::before{
     width:100%;
-}
-#experiencias, .color{
-    color: #606D4B;
 }
 footer{
     position: relative;
