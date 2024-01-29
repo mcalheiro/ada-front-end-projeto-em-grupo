@@ -332,15 +332,6 @@ main{
     margin-top: 20px;
 }
 
-@media (max-width: 768px) {
-    .conteiner__ava__jm{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-    }
-}
-
 .img__jm:hover{
     border: 2px solid rgba(255, 255, 255, 0.693);
     transform: translate(-5px,-5px);
