@@ -223,6 +223,7 @@ main{
 .conteiner__jm{
     margin-top: 100px;
     padding: 10px;
+
     background: hsl(115, 86%, 14%);
 }
 
@@ -350,7 +351,8 @@ main{
   @media (max-width: 768px){
     .comentarios-positivos{
         width: 400px;
-        margin: auto;
+        margin: 0 auto;
+        justify-content: center;
     }
   }
 
@@ -405,16 +407,18 @@ main{
     font-size: 18px;
   }
   
-  @media (max-width: 768px) {
-    .comentarios {
-      flex-direction: column;
-    }
-  
-    .comentario {
-      width: 100%;
-    }
-  }
 
+@media (max-width:768px){
+    .conteiner__ava__jm {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        max-width: 100px;
+        gap: 20px;
+        padding: 20px;
+    }
+}
 
   /*FOOTER*/
 
