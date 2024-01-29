@@ -204,8 +204,16 @@ main{
 }
 
 .conteiner__text__jm{
-    text-align: center;
-    margin: 0 15px;
+  color: #FFF;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .conteiner__h2__jm{
@@ -220,14 +228,11 @@ main{
     letter-spacing: 3.6px;      
 }
 
-.conteiner__p__jm{
-    color: #FFF;
-    font-family: "DM Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
+@media  (max-width: 768px){
+  .conteiner__text__jm{
+    width: 500px;
+    
+  }
 }
 
 .maior__jm{
@@ -238,7 +243,7 @@ main{
     display: flex;
     width: 1152px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;  
     margin: auto;
 }
@@ -280,16 +285,16 @@ main{
     margin: auto;
     margin-top: 20px;
     margin: 0% 20%;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    .media__ava {
+  .conteiner__ava__jm {
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin: 0 auto;
       text-align: center;
-      margin-top: 40px;
       gap: 10px; /* Add this property */
     }
   }
