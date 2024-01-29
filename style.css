@@ -278,14 +278,13 @@ main{
 }  
 
 .conteiner__ava__jm{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin: auto;
-    margin-top: 20px;
-    margin: 0% 20%;
-    padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin: 0% 20%;
 }
 
 @media (max-width: 768px) {
@@ -295,25 +294,21 @@ main{
       justify-content: center;
       margin: 0 auto;
       text-align: center;
-      gap: 10px; /* Add this property */
     }
   }
 
-.conteiner__ava__jm{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin: auto;
-    margin-top: 20px;
-    margin: 0% 20%;
-}
-
+  
 .img__jm:hover{
     border: 2px solid rgba(255, 255, 255, 0.693);
     transform: translate(-5px,-5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
     transition: transform .5s, border 1s;
+}
+
+.img__jm{
+  margin: 10px;
+  box-shadow: 3px 2px 2px green;
+  border-radius: 10px;
 }
 
 #borda__jm{
@@ -327,17 +322,16 @@ main{
     margin: auto;
   }
 
-
   .depoimentos__h2{
+    color: #FFF;
+    text-align: center;
     font-family: "DM Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-  }
-  
-  .comentarios-positivos h2 {
-    font-size: 24px;
-    margin-bottom: 30px;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin: 40PX;
   }
   
   .comentarios {
@@ -369,6 +363,7 @@ main{
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
+    box-shadow: 3px 2px 2px green;
   }
   
   .comentario strong {
