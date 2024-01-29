@@ -154,10 +154,8 @@ body {
     border-top-left-radius: 5px;
 }
 
-#card img:hover {
-    filter: blur(100%);
-    -webkit-filter: brightness(0.5);
-    filter: brightness(.5);
+#cards img:hover {
+    opacity: 0.9;
 }
 
 #card-one {
