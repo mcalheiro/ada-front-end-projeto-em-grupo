@@ -230,7 +230,7 @@ main{
 
 @media  (max-width: 768px){
   .conteiner__text__jm{
-    width: 500px;
+    width: 450px;
     
   }
 }
@@ -322,7 +322,7 @@ main{
     margin: auto;
   }
 
-  .depoimentos__h2{
+  section.depoimentos__h2{
     color: #FFF;
     text-align: center;
     font-family: "DM Sans";
