@@ -10,7 +10,7 @@ body{
 #months {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 35px;
 }
 
 .align-items-start .col {
@@ -49,8 +49,11 @@ body{
     text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 .botswana{
-    font-size: 4rem;
-    font-weight:500;
+    font-size: 8rem;
+    font-weight:600;
+}
+.explore{
+    font-size: 2rem;
 }
 .color-overlay{
     position: absolute;
@@ -115,17 +118,16 @@ header {
     color: #606D4B;
 }
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     background: hsla(0, 0%, 7%, 0.5);
     height: auto;
-    width: 100vw;
+    width: 100vmax;
     font-family: "DMSans";
     padding-top: 40px;
     color: beige;
-    text-shadow: 2px 2px 2px black;
 }
 .footer-content{
     display: flex;
@@ -135,18 +137,18 @@ footer{
     text-align: center;
 }
 .footer-content h3{
+    font-family: "DMSans";
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
-    text-shadow: 2px 2px 2px black;
 }
 .footer-content p{
+    font-family: "DMSans";
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    text-shadow: 2px 2px 2px black;
 }
 .socials{
     list-style: none;
@@ -173,8 +175,9 @@ footer{
 }
 
 .footer-bottom{
+    margin: 0;
     background: hsla(0, 0%, 0%, 0.5);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -187,4 +190,4 @@ footer{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
-} 
+}
