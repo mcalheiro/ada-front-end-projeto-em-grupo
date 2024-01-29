@@ -92,34 +92,47 @@ body {
     flex-direction: column;
     align-items: center;  
     padding: 10px;
-    margin-top: 100px;
-    
+    margin-top: 70px;
+    justify-content: center;
 }
 
 #main h2 {
-    font-size: 100px;
+    font-size: 125px;
     margin: 0;
-    letter-spacing: 0px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+#main p {
+    margin-top: 0;
+    text-transform: bold;
 }
 
 #main #button {
     color: white;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(66, 167, 57, 0.705);
     border-radius: 10px;
     text-decoration: none;
 }
 
-#main button:hover {
+#main #button:hover {
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #0b5300;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 #cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 15px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+#cards a {
+    text-decoration: none;
+    color: black;
 }
 
 #cards h3 {
@@ -130,16 +143,21 @@ body {
 
 #cards p {
     margin: 0;
-    padding: 0 5px;
-    text-indent: 22px;
+    padding: 0 10px;
     text-align: justify;
 }
 
 #cards img {
     height: 150px;
     width: 270px;
-    border-radius: 5px;
-    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#card img:hover {
+    filter: blur(100%);
+    -webkit-filter: brightness(0.5);
+    filter: brightness(.5);
 }
 
 #card-one {
@@ -152,7 +170,8 @@ body {
 }
 
 #card-one:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(184, 255, 191, 0.508), 0 10px 10px rgba(0,0,0,0.22);
+    
 }
 
 #card-two {
@@ -165,7 +184,7 @@ body {
 }
 
 #card-two:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(184, 255, 191, 0.508), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #card-three {
@@ -178,7 +197,7 @@ body {
 }
 
 #card-three:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(184, 255, 191, 0.508), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 
@@ -187,6 +206,9 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+    }
+    #main h2 {
+        font-size: 100px;
     }
 }
 
@@ -232,6 +254,16 @@ main{
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px){
+    .conteiner__p__jm{
+        width: 500px;
+        margin: auto;
+    }
 }
 
 .maior__jm{
@@ -242,7 +274,7 @@ main{
     display: flex;
     width: 1152px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;  
     margin: auto;
 }
@@ -264,6 +296,12 @@ main{
     transition: transform .5s, border 1s; 
 }
 
+.img__jm{
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px green;
+    margin: 15px;
+}
+
 .conteiner__h3__jm{
     color: #FFF;
     text-align: center;
@@ -273,7 +311,7 @@ main{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 2.4px;
-    margin: 40PX;
+    margin: 40px;
 }  
 
 @media (max-width: 768px) {
@@ -297,7 +335,7 @@ main{
 .img__jm:hover{
     border: 2px solid rgba(255, 255, 255, 0.693);
     transform: translate(-5px,-5px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.518);
+    box-shadow: 5px 5px 10px green;
     transition: transform .5s, border 1s;
 }
 
@@ -312,6 +350,13 @@ main{
     margin: auto;
   }
 
+  @media (max-width: 768px){
+    .comentarios-positivos{
+        width: 400px;
+        margin: auto;
+    }
+  }
+
 
   .depoimentos__h2{
     font-family: "DM Sans";
@@ -323,6 +368,10 @@ main{
   .comentarios-positivos h2 {
     font-size: 24px;
     margin-bottom: 30px;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
   }
   
   .comentarios {
@@ -338,6 +387,8 @@ main{
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    color: black;
   }
   
   .comentario img {
@@ -382,7 +433,7 @@ main{
     background: hsla(0, 0%, 7%, 0.5);
     height: auto;
     width: 100%;
-    font-family: "DMSans";
+    font-family: "DM Sans";
     padding-top: 40px;
     color: beige;
 }
@@ -394,12 +445,14 @@ main{
     text-align: center;
 }
 .footer-content h3{
+    font-family: "DM Sans";
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
 .footer-content p{
+    font-family: "DM Sans";
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
