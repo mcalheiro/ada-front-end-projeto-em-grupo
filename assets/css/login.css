@@ -20,15 +20,15 @@
       display: none;
     }
 
-       .login-container {
-      display: flex;
-      align-content: center;
-      flex-direction: column;
-      height: 50% auto;
-      width: 50% auto;
-      margin: auto;
-      max-width: 100%;
-      min-height: 740px;
+    .login-container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 50% auto;
+    width: 50% auto;
+    margin: auto;
+    max-width: 100%;
+    min-height: 740px;
     }
     
     .login-box {
@@ -181,7 +181,7 @@
 }
 
 .header{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -317,7 +317,7 @@ footer div {
 
 h6 a {
   text-decoration: none;
-  color: rgb(22, 145, 49);
+  color: rgb(68, 185, 93);
   font-weight: bold;
 }
 
